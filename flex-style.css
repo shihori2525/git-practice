@@ -8,16 +8,24 @@ header {
   width: 100%;
   padding: 30px 20px;
   background-color: #fb00ff;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.item {
+header > div {
   height: 70px;
   margin: 0 10px;
   background-color: #f99efe;
+  flex-basis: 140px;
+}
+
+header > :first-child {
+  margin-right: auto;
 }
 
 main {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .left-box {
@@ -27,21 +35,33 @@ main {
 
 .flex2 {
   background-color: #17ab1a;
+  padding: 20px;
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.item-2 {
+.flex2 > div {
   height: 130px;
   margin: 10px;
   background-color: #fff849;
+  flex-basis: 200px;
 }
 
-.footer {
-  width: 100%;
+footer {
   background-color: #438cff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.footer-box {
+footer > div {
   height: 40px;
   margin: 10px;
   background-color: #a9e0fe;
+  flex-basis: 45%;
+  max-width: 600px;
 }
