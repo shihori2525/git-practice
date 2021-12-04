@@ -3,3 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #fb00ff;
+}
+
+.item {
+  height: 70px;
+  margin: 0 10px;
+  background-color: #f99efe;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.left-box {
+  width: 300px;
+  background-color: #d1ffa7;
+}
+
+.flex2 {
+  background-color: #17ab1a;
+}
+
+.item-2 {
+  height: 130px;
+  margin: 10px;
+  background-color: #fff849;
+}
+
+.footer {
+  width: 100%;
+  background-color: #438cff;
+}
+
+.footer-box {
+  height: 40px;
+  margin: 10px;
+  background-color: #a9e0fe;
+}
